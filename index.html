@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Fatima Responsive site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    #hero {
+        background-image: url(hero-img.jpg) !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    .social-icons i{
+        background-color: rgb(35, 29, 58);
+        padding: 10px;
+        border-radius: 40px;
+        font-size: 20px;
+    }
+</style>
+
+<body>
+    <div class="container-fluid" id="hero">
+        <nav class="navbar px-md-3 navbar-expand-lg rounded">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white fw-bold" href="#">Angry bird</a>
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 rounded-pill px-md-2 m-auto" id="nav-ul">
+                        <li class="nav-item ">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+
+                        <button id="nav-btn" class="btn btn-sm fw-bold btn-success" type="submit">Download Cv</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <div class="container d-flex">
+            <div class="row ">
+                <div class="col-md-7 text-light rounded p-md-3 p-3 d-flex flex-column mt-md-5 " id="hero-text">
+                        <div class="mt-md-5  pt-md-5">
+                        <h1 class="fw-bold text-light">Hello</h1>
+                        <h1>I am <span class="element text-danger fw-bold"></span></h1>
+                        <h5 class="mt-4">As a web developer, I specialize in creating and maintaining websites, ensuring
+                            functionality,
+                            design, and user experience meet high standards.</h5>
+                    </div>
+                    <div class="hero-btn mt-4 ">
+                        <button class="btn fw-bold px-3 text-danger btn-dark w-md-25 me-2 border border-3 border-danger me-3">Hire me</button>
+                        <button class="btn w-md-25 px-3 fw-bold btn-outline-danger">Let's Talk <span style="color: #fff; font-size: 20px;">&#x21f4;</span></button>
+                    </div>
+                    <div class="social-icons my-4 pt-3 d-flex justify-content-between justify-content-sm-start">
+                        <i class="fab fa-facebook-f fa-bounce me-3"></i>
+                        <i class="fab fa-linkedin fa-bounce mx-3"></i>
+                        <i class="fab fa-instagram fa-bounce me-4"></i>
+                        <i class="fab fa-twitter fa-bounce"></i>
+                    </div>
+                    
+                    
+                </div>
+                <div class="col-md-4 m-auto d-none mt-md-5 pt-md-5 d-sm-block" id="hero-img">
+                    <img class="img-fluid rounded-pill border border-5 align-self-end" src="fatima.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</body>
+<script>
+
+    var output = new Typed(".element", {
+        strings: ["Fatima Khan", "Web Designer", "Web Developer"],
+        typeSpeed: 150,
+        backSpeed: 100,
+        showCursor: false,
+        backDelay: 2000,
+    });
+
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f1077552d3.js" crossorigin="anonymous"></script>
+</html>
